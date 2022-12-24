@@ -21,5 +21,5 @@ elements.btn.addEventListener('click', function (event) {
     if (elements.paddingCheck.checked === true) {
         name.style.margin = '0';
     }
-    text.style.fontSize = element.textSize.value;
+    text.style.fontSize = element.textSize.value + 'px';
 })
